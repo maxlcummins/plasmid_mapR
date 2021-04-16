@@ -1,0 +1,10 @@
+Package: plasmidmapR
+Type: Package
+Title: A package for the visualisation of reference plasmid coverage
+Version: 0.1.0
+Author: Max Cummins
+Maintainer: Max Cummins <max.l.cummins@gmail.com>
+Description: Used to visualise plasmid carriage
+License: GNU
+Encoding: UTF-8
+LazyData: true
