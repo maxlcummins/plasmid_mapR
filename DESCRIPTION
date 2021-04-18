@@ -1,10 +1,12 @@
 Package: plasmidmapR
 Type: Package
-Title: A package for the visualisation of reference plasmid coverage
+Title: PlasmidmapR: A plasmid coverage visualisation tool
 Version: 0.1.0
-Author: Max Cummins
+Author: Max Cummins, 
 Maintainer: Max Cummins <max.l.cummins@gmail.com>
-Description: Used to visualise plasmid carriage
+Description: plasmidmapR is used to combine and process abricate data to allow visulisation of the presence of plasmids and other reference sequences within whole genome sequence datasets. While other tools exist for similar purposes these are too slow or hard to interpret when sample sizes get too large. PlasmidmapR has the added ability to assist in visualisations of plasmid coverage en-masse mapped to a phylogenetic tree using ggtree or based on similarity of coverage profiles
 License: GNU
 Encoding: UTF-8
 LazyData: true
+Date: 2021-04-18
+
