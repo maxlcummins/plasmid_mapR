@@ -5,6 +5,20 @@ This package was built based off a script produced for a previous publication. I
 
 Cummins, Max L., et al. "Whole genome sequence analysis of Australian avian pathogenic Escherichia coli that carry the class 1 integrase gene." Microbial genomics 5.2 (2019).
 
+## Installation
+
+```
+# Install devtools
+install.packages("devtools")
+# Load devtools
+library(devtools)
+
+#Download plasmidmapR
+install_github("maxlcummins/plasmidmapR")
+#Load plasmidmapR
+library(plasmidmapR)
+
+```
 
 ## Usage
 
