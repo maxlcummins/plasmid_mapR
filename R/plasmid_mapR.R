@@ -156,8 +156,8 @@ plasmid_mapR <-
            as.list(as.integer(abricate_hits$start)),
            as.list(as.integer(abricate_hits$end)))
     
-    name_fact_as_int <- as.list(as.integer(as.factor(abricate_hits$name)))
-    name_fact <- as.list(as.factor(abricate_hits$name))
+    name_fact_as_int <- as.integer(as.factor(abricate_hits$name))
+    name_fact <- as.factor(abricate_hits$name)
     
     check_df <- cbind(name_fact, name_fact_as_int)
     
