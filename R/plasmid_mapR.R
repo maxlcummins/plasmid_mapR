@@ -155,6 +155,13 @@ plasmid_mapR <-
       list(as.list(as.integer(as.factor(abricate_hits$name))),
            as.list(as.integer(abricate_hits$start)),
            as.list(as.integer(abricate_hits$end)))
+    
+    name_fact_as_int <- as.list(as.integer(as.factor(abricate_hits$name)))
+    name_fact <- as.list(as.factor(abricate_hits$name))
+    
+    check_df <- cbind(name_fact, name_fact_as_int)
+    
+    assign("check_df", check_df, envir=globalenv())
 
     #Create a counter
     counter <- 0
