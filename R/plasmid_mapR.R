@@ -142,11 +142,11 @@ plasmid_mapR <-
 
     #Create an empty matrix equal to length of ref plasmid
     empty_plasrow <-
-      rep(0, times = unique(abricate_hits$ref_length))
+      rep(0, unique(abricate_hits$ref_length))
 
     #Create an empty matrix with n rows (n = sample size) with ncol == length(ref plasmid)
     empty_plasmatrix <- matrix(rep(empty_plasrow,
-                                   times = length(unique(abricate_hits$name))),
+                                   length(unique(abricate_hits$name))),
                                nrow = length(unique(abricate_hits$name)))
 
     #Create a list of levels for sample names, a list of start coords and a list of end coords
